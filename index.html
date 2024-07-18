@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>About</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="css/uikit.css" />
+		<link rel="stylesheet" href="css/css-about.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Alex+Brush&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+		<script src="js/js-about.js"></script>
+        <script src="js/uikit.js"></script>
+        <script src="js/uikit-icons.js"></script>
+    </head>
+    <body>
+	
+	<!-- Sticky Navbar for Desktop -->
+	<div uk-sticky="show-on-up: true">
+<nav class="uk-navbar-container uk-navbar-sticky custom-margin" uk-navbar>
+    <a class="uk-navbar-item uk-logo" href="index.html">
+    <img class="logo" src="img/about/logo.jpeg">
+</a>
+    <div class="uk-navbar-right uk-visible@m">
+        <ul class="uk-navbar-nav">
+            <li><a href="index.html">About</a></li>
+            <li><a href="explore-the-town.html">Explore the town</a></li>
+            <li><a href="chinatown-little-italy.html">Chinatown &Little Italy</a></li>
+            <li><a href="ny-fashion-week.html">NY Fashion Week</a></li>
+        </ul>
+    </div>
+    <div class="uk-navbar-right uk-hidden@m">
+        <a class="uk-navbar-toggle" uk-navbar-toggle-icon href="#offcanvas-nav" uk-toggle></a>
+    </div>
+</nav>
+</div>
+
+<!-- Off-Canvas Menu for Mobile -->
+<div id="offcanvas-nav" uk-offcanvas="mode: slide; overlay: true">
+    <div class="uk-offcanvas-bar custom-margin">
+        <button class="uk-offcanvas-close" type="button" uk-close></button>
+        <ul class="uk-nav uk-nav-default">
+             <li><a href="index.html">About</a></li>
+            <li><a href="explore-the-town.html">Explore the town</a></li>
+            <li><a href="chinatown-little-italy.html">Chinatown & Little Italy</a></li>
+            <li><a href="ny-fashion-week.html">NY Fashion Week</a></li>
+        </ul>
+    </div>
+</div>
+
+<div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slideshow="ratio: 7:3; animation: push">
+
+    <div class="uk-slideshow-items">
+        <div>
+            <img src="img/about/ny1.jpeg" alt="" uk-cover>
+        </div>
+        <div>
+            <img src="img/about/ny2.jpg" alt="" uk-cover>
+        </div>
+        <div>
+            <img src="img/about/ny3.jpg" alt="" uk-cover>
+        </div>
+		<div>
+            <img src="img/about/ny4.jpg" alt="" uk-cover>
+        </div>
+		<div>
+            <img src="img/about/ny5.jpg" alt="" uk-cover>
+        </div>
+    </div>
+
+    <a class="uk-position-center-left uk-position-small uk-hidden-hover" href uk-slidenav-previous uk-slideshow-item="previous"></a>
+    <a class="uk-position-center-right uk-position-small uk-hidden-hover" href uk-slidenav-next uk-slideshow-item="next"></a>
+
+</div>
+
+<div class="uk-section uk-section-muted">
+    <div class="uk-container">
+
+        <div class="uk-grid-match uk-child-width-1-2@m" uk-grid>
+            <div>
+                <p>New York City este alcătuit din cinci zone administrative numite boroughs (districte), fiecare având propriile sale caracteristici și comunități distincte. Aceste zone sunt și ele la rândul lor alcătuite din mii de cartiere, multe dintre care au propria lor istorie și semnătură.</p>
+				<ul class="uk-list">
+					 <li> <a href="" uk-icon="location"></a> Manhattan (59 km2)</li>
+                     <li> <a href="" uk-icon="location"></a>Brooklyn (183 km2)</li>
+                     <li><a href="" uk-icon="location"></a>Queens (283 km2)</li>
+                     <li><a href="" uk-icon="location"></a>Brox (109 km2)</li>
+                     <li><a href="" uk-icon="location"></a>Staten Island (265 km2)</li>
+                </ul>
+            </div>
+            <div>
+                  <img class="districts" src="img/about/ny.jpg">
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+
+<ul class="uk-subnav uk-subnav-pill" uk-switcher>
+    <li><a href="#">Manhattan</a></li>
+    <li><a href="#">Brooklyn</a></li>
+    <li><a href="#">Queens</a></li>
+	<li><a href="#">Bronx</a></li>
+    <li><a href="#">Staten Island</a></li>
+</ul>
+
+<div class="uk-switcher uk-margin">
+<div>    
+ <div class="uk-grid-match uk-child-width-1-2@m" uk-grid>    
+	<div>
+        <h1 class="uk-heading-small" >Manhattan</h1>
+        <p class="uk-margin-left">Este considerat inima New York City-ului și este centrul financiar, cultural și comercial al orașului. Manhattan-ul este împărțit în mai multe cartiere distincte, fiecare cu propriile sale caracteristici și atracții. De exemplu, Financial District-ul este centrul financiar al orașului, Midtown Manhattan-ul este cunoscut pentru clădirile sale înalte și sediile corporațiilor, iar Upper East Side-ul este renumit pentru magazinele de lux și muzeele de artă. Este centrul turistic al orașului, găzduind atracții precum Central Park, Times Square, Empire State Building, Muzeul Metropolitan de Artă și multe altele.</p>
+        </div>
+	
+    <div>
+    <div class="uk-child-width-1-2@s uk-child-width-1-3@m" uk-grid="masonry: pack">
+    <div>
+        <div class="uk-card uk-card-default uk-flex uk-flex-center uk-flex-middle" style="height: 120px"><img src="img/about/m6.jpg" alt=""></div>
+    </div>
+    <div>
+        <div class="uk-card uk-card-default uk-flex uk-flex-center uk-flex-middle" style="height: 140px"><img src="img/about/m2.jpg" alt=""></div>
+    </div>
+    <div>
+        <div class="uk-card uk-card-default uk-flex uk-flex-center uk-flex-middle" style="height: 200px"> <img src="img/about/m3.jpg" alt=""></div>
+    </div>
+    <div>
+        <div class="uk-card uk-card-default uk-flex uk-flex-center uk-flex-middle" style="height: 190px"><img src="img/about/m4.jpeg" alt=""></div>
+    </div>
+    <div>
+        <div class="uk-card uk-card-default uk-flex uk-flex-center uk-flex-middle" style="height: 130px"><img src="img/about/m5.jpg" alt=""></div>
+    </div>
+	<div>
+        <div class="uk-card uk-card-default uk-flex uk-flex-center uk-flex-middle" style="height: 100px"><img src="img/about/m1.jpg" alt=""></div>
+    </div>
+    </div>
+    </div>
+  </div>
+</div>
+  
+<div>  
+ <div class="uk-grid-match uk-child-width-1-2@m" uk-grid>    
+	<div>
+        <h1 class="uk-heading-small" >Brooklyn</h1>
+        <p class="uk-margin-left">Brooklyn, unul dintre cele cinci districte ale orașului New York, se remarcă prin diversitatea culturală și etnică, găzduind comunități vibrante ale afro-americanilor, hispaniciilor, asiaticilor, evreilor și altora. Fiecare cartier din Brooklyn are o personalitate distinctă; de exemplu, Brooklyn Heights impresionează prin arhitectura sa istorică, în timp ce Williamsburg și Bushwick sunt cunoscute pentru scena lor artistică și culturală efervescentă. În ultimele decenii, Brooklyn a cunoscut o revitalizare urbană, transformându-se dintr-o zonă industrială într-un centru al inovației și culturii. Legătura cu Manhattan-ul este asigurată de celebrul Brooklyn Bridge, facilitând accesul la atracțiile orașului.</p>
+    </div>
+	
+    <div>
+    <div class="uk-child-width-1-2@s uk-child-width-1-3@m" uk-grid="masonry: pack">
+    <div>
+        <div class="uk-card uk-card-default uk-flex uk-flex-center uk-flex-middle" style="height: 100px"><img src="img/about/bk1.jpg" alt=""></div>
+    </div>
+    <div>
+        <div class="uk-card uk-card-default uk-flex uk-flex-center uk-flex-middle" style="height: 130px"><img src="img/about/bk2.jpg" alt=""></div>
+    </div>
+    <div>
+        <div class="uk-card uk-card-default uk-flex uk-flex-center uk-flex-middle" style="height: 260px"><img src="img/about/bk3.jpeg" alt=""></div>
+    </div>
+    <div>
+        <div class="uk-card uk-card-default uk-flex uk-flex-center uk-flex-middle" style="height: 170px"><img src="img/about/bk4.jpg" alt=""></div>
+    </div>
+    <div>
+        <div class="uk-card uk-card-default uk-flex uk-flex-center uk-flex-middle" style="height: 130px"><img src="img/about/bk5.jpg" alt=""></div>
+    </div>
+	
+    </div>
+    </div>
+  </div>
+</div> 
+  
+  
+<div>  
+ <div class="uk-grid-match uk-child-width-1-2@m" uk-grid>    
+	<div>
+        <h1 class="uk-heading-small" >Queens</h1>
+            <p class="uk-margin-left">Queens, unul dintre cele cinci districte ale orașului New York, este o destinație diversă și vibrantă, renumită pentru amestecul său bogat de culturi și etnii. Cartierele sale variate oferă o gamă largă de experiențe, de la gastronomie internațională la evenimente culturale și recreere în Parcul Flushing Meadows-Corona. De asemenea, Queens are o importanță economică semnificativă, cu aeroporturi importante și un centru în creștere pentru industria media și tehnologică. Spiritul comunitar puternic subliniază diversitatea și vitalitatea acestui district.</p>      
+    </div>
+	
+    <div>
+    <div class="uk-child-width-1-2@s uk-child-width-1-3@m" uk-grid="masonry: pack">
+    <div>
+        <div class="uk-card uk-card-default uk-flex uk-flex-center uk-flex-middle" style="height: 100px"><img src="img/about/q1.jpg" alt=""></div>
+    </div>
+    <div>
+        <div class="uk-card uk-card-default uk-flex uk-flex-center uk-flex-middle" style="height: 130px"><img src="img/about/q2.jpg" alt=""></div>
+    </div>
+    <div>
+        <div class="uk-card uk-card-default uk-flex uk-flex-center uk-flex-middle" style="height: 170px"><img src="img/about/q3.jpg" alt=""></div>
+    </div>
+    <div>
+        <div class="uk-card uk-card-default uk-flex uk-flex-center uk-flex-middle" style="height: 150px"><img src="img/about/q4.jpg" alt=""></div>
+    </div>
+    <div>
+        <div class="uk-card uk-card-default uk-flex uk-flex-center uk-flex-middle" style="height: 140px"><img src="img/about/q5.jpg" alt=""></div>
+    </div>
+	<div>
+        <div class="uk-card uk-card-default uk-flex uk-flex-center uk-flex-middle" style="height: 100px"><img src="img/about/q6.jpg" alt=""></div>
+    </div>
+    </div>
+    </div>
+  </div>
+</div>
+ 
+<div>
+ <div class="uk-grid-match uk-child-width-1-2@m" uk-grid>    
+	<div>
+        <h1 class="uk-heading-small" >Bronx</h1>
+        <p class="uk-margin-left">Bronx este recunoscut pentru Parcul Bronx, care adăpostește Grădina Zoologică Bronx Zoo și Grădina Botanică din New York. Este o zonă cu o bogată moștenire culturală și istorică, fiind leagănul mișcării hip-hop și casa unor artiști celebri precum Edgar Allan Poe. Diversitatea sa etnică și culturală este evidentă în comunitățile sale vibrante, însă districtul se confruntă și cu provocări sociale și economice. Cu toate acestea, rezistența și activitatea comunității din Bronx demonstrează dorința de îmbunătățire și progres.</p>
+    </div>
+	
+    <div>
+    <div class="uk-child-width-1-2@s uk-child-width-1-3@m" uk-grid="masonry: pack">
+    <div>
+        <div class="uk-card uk-card-default uk-flex uk-flex-center uk-flex-middle" style="height: 100px"><img src="img/about/br1.jpeg" alt=""></div>
+    </div>
+    <div>
+        <div class="uk-card uk-card-default uk-flex uk-flex-center uk-flex-middle" style="height: 130px"><img src="img/about/br2.jpg" alt=""></div>
+    </div>
+    <div>
+        <div class="uk-card uk-card-default uk-flex uk-flex-center uk-flex-middle" style="height: 250px"><img src="img/about/br3.jpg" alt=""></div>
+    </div>
+    <div>
+        <div class="uk-card uk-card-default uk-flex uk-flex-center uk-flex-middle" style="height: 160px"><img src="img/about/br5.jpg" alt=""></div>
+    </div>
+    <div>
+        <div class="uk-card uk-card-default uk-flex uk-flex-center uk-flex-middle" style="height: 150px"><img src="img/about/br5.jpeg" alt=""></div>
+    </div>
+    </div>
+    </div>
+  </div>
+</div>
+  
+<div>
+ <div class="uk-grid-match uk-child-width-1-2@m" uk-grid>    
+	<div>
+        <h1 class="uk-heading-small" >Staten Island</h1>
+        <p class="uk-margin-left">Staten Island, al cincilea district al New York-ului, este o oază de liniște și natură în agitația urbană a orașului. Aici, peisajele naturale, parcurile și rezervațiile oferă locuitorilor și vizitatorilor o evadare într-un mediu relaxant și pitoresc. Cu toate că este cel mai puțin dens populat, Staten Island are o comunitate diversă, reflectând moștenirea sa culturală. Legăturile de transport, precum feriboturile și podurile, asigură conectivitatea cu restul orașului, facilitând accesul la servicii și atracții. În ansamblu, Staten Island este un loc de refugiu pentru cei care caută să se bucure de natură și de atmosfera sa relaxată în mijlocul agitației urbane a New York-ului.</p>
+    </div>
+	
+    <div>
+    <div class="uk-child-width-1-2@s uk-child-width-1-3@m" uk-grid="masonry: pack">
+    <div>
+        <div class="uk-card uk-card-default uk-flex uk-flex-center uk-flex-middle" style="height: 100px"><img src="img/about/si1.jpeg" alt=""></div>
+    </div>
+    <div>
+        <div class="uk-card uk-card-default uk-flex uk-flex-center uk-flex-middle" style="height: 150px"><img src="img/about/si2.jpg" alt=""></div>
+    </div>
+    <div>
+        <div class="uk-card uk-card-default uk-flex uk-flex-center uk-flex-middle" style="height: 270px"><img src="img/about/si3.jpg" alt=""></div>
+    </div>
+    <div>
+        <div class="uk-card uk-card-default uk-flex uk-flex-center uk-flex-middle" style="height: 150px"><img src="img/about/si4.jpg" alt=""></div>
+    </div>
+    <div>
+        <div class="uk-card uk-card-default uk-flex uk-flex-center uk-flex-middle" style="height: 130px"><img src="img/about/si5.jpeg" alt=""></div>
+    </div>
+    </div>
+    </div>
+  </div>
+</div>
+
+  </div>
+  
+  <div class="uk-section">
+    <div class="uk-container">
+	<h1 class="uk-heading-small" >Istorie</h1>
+    <p>Istoria orasului New York este plină de momente semnificative și evenimente care au contribuit la formarea și dezvoltarea sa ca unul dintre cele mai importante orașe din lume.</p>
+ <ul class="uk-list uk-list-divider">
+   <li> <span  uk-icon="check"></span> <b>Colonizarea europeană.</b> Orașul a fost fondat inițial în 1624 de către coloniști olandezi sub numele de "Noua Amsterdam" pe insula Manhattan. A devenit un centru comercial important datorită poziției sale strategice de pe coasta de est a Americii de Nord.</li>
+    <li><span  uk-icon="check"></span><b>Cedarea către englezi.</b> În 1664, Noua Amsterdam a fost capturată de forțele engleze și redenumită "New York" în onoarea Ducei de York. Sub conducerea britanicilor, New York City-ul a devenit un centru al comerțului colonial și a prosperat în următorii ani.</li>
+    <li><span  uk-icon="check"></span><b>Revoluția Americană.</b> New York City a jucat un rol important în Revoluția Americană, fiind ocupat de britanici pentru o perioadă înainte de a fi eliberat de trupele coloniștilor în 1783. A devenit capitala Statelor Unite ale Americii între 1785 și 1790.</li>
+    <li><span  uk-icon="check"></span><b>Industrializarea.</b> În secolul al XIX-lea, New York City-ul a cunoscut o expansiune rapidă datorată imigrației masive și industrializării. A devenit unul dintre cele mai mari și mai importante centre urbane din lume, cu o economie diversificată și o populație în creștere rapidă.</li>
+    <li><span  uk-icon="check"></span><b>Secolul XX și prezentul.</b> New York City a continuat să prospere în secolul XX, devenind un centru mondial al finanțelor, culturii, artei și comerțului. A fost martor la evenimente importante precum atacurile teroriste din 11 septembrie 2001, dar și la reconstrucția și revitalizarea orașului în anii următori.</li>
+</ul>
+</div>
+</div>
+ 
+ <h1 class="uk-heading-small" >Cultura</h1>
+ <div class="uk-child-width-1-5@m" uk-grid>
+    <div>
+        <div class="uk-card uk-card-default">
+            
+            <div class="uk-card-body">
+                <h3 class="uk-card-title">Arta</h3>
+                <p>În ceea ce privește arta, New York City-ul găzduiește unele dintre cele mai importante muzee și galerii de artă din lume, cum ar fi Muzeul Metropolitan de Artă, Muzeul de Artă Modernă și Guggenheim Museum. De asemenea, orașul este faimos pentru scena sa vibrantă de artă stradală și pentru evenimentele culturale precum Festivalul de Film de la Tribeca și Art Basel.</p>
+            </div>
+			
+        </div>
+    </div>
+    <div>
+        <div class="uk-card uk-card-default">
+            <div class="uk-card-body">
+                <h3 class="uk-card-title">Muzica</h3>
+                <p>Industria muzicală din New York City a fost un motor al inovației și diversității, contribuind la apariția unor genuri muzicale variate, de la jazz și hip-hop la punk și rock. Locuri legendare precum Apollo Theater și Carnegie Hall continuă să ofere platforme pentru artiști de renume mondial și talente emergente.</p>
+            </div>
+            
+        </div>
+    </div>
+	<div>
+        <div class="uk-card uk-card-default">
+            
+            <div class="uk-card-body">
+                <h3 class="uk-card-title">Teatru</h3>
+                <p>Broadway-ul din New York City este o emblemă a artei scenice, cunoscut pentru spectacolele sale teatrale și muzicale care captivează și încântă audiențele din întreaga lume. Cu sute de teatre și spectacole în derulare, Broadway-ul atrage anual milioane de spectatori și este un punct focal al industriei de divertisment din New York City.</p>
+            </div>
+			
+        </div>
+    </div>
+	<div>
+        <div class="uk-card uk-card-default">
+            <div class="uk-card-body">
+                <h3 class="uk-card-title">Moda</h3>
+                <p>Moda din New York City este unul dintre cele mai vibrante și influente aspecte ale vieții urbane, reflectând diversitatea culturală și creativitatea orașului. Orașul găzduiește Săptămâna Modei de la New York, atrăgând designeri de top și influenceri din întreaga lume. Stilurile sunt diverse și incluzive, variind de la streetwear la haute couture.</p>
+            </div>
+            
+        </div>
+    </div>
+	<div>
+        <div class="uk-card uk-card-default">
+           
+            <div class="uk-card-body">
+                <h3 class="uk-card-title">Gastronomie</h3>
+                <p>Gastronomia din New York City este o experiență culinară vibrantă și diversificată, reflectând mozaicul cultural al orașului. De la bucătării etnice autentice la restaurante gourmet și mâncăruri de stradă, New York City-ul oferă o varietate incredibilă de opțiuni gastronomice. </p>
+            </div>
+			 
+        </div>
+    </div>
+</div>
+
+<div class="uk-section">
+    <div class="uk-container">
+ <h1 class="uk-heading-small" >Economie</h1>
+<ul uk-accordion="multiple: true">
+    <li class="uk-open">
+        <a class="uk-accordion-title" href>Tehnologie și inovație</a>
+        <div class="uk-accordion-content">
+            <p>New York City-ul este, de asemenea, un centru important pentru industria tehnologică și inovatoare, atrăgând start-up-uri, investiții și talente din întreaga lume. Zone precum Silicon Alley în Manhattan și Brooklyn Tech Triangle sunt hub-uri pentru companii de tehnologie, media și telecomunicații, contribuind la diversificarea și creșterea economiei orașului.</p>
+        </div>
+    </li>
+    <li>
+        <a class="uk-accordion-title" href>Finanțe și comerț</a>
+        <div class="uk-accordion-content">
+            <p>New York City-ul este unul dintre cele mai importante centre financiare din lume, găzduind Wall Street-ul, inima piețelor financiare globale. Aici se află bursele de valori, băncile de investiții, instituțiile financiare și multe alte companii legate de sectorul financiar. Această industrie este motorul principal al economiei orașului, generând venituri semnificative și oferind oportunități de carieră pentru milioane de oameni.</p>
+        </div>
+    </li>
+    <li>
+        <a class="uk-accordion-title" href>Turism</a>
+        <div class="uk-accordion-content">
+            <p>New York City-ul este una dintre cele mai populare destinații turistice din lume, atrăgând milioane de vizitatori în fiecare an. Atracțiile sale iconice precum Statuia Libertății, Empire State Building, Times Square și Broadway sunt doar câteva dintre motivele pentru care turiștii vin în oraș. Turismul aduce venituri semnificative pentru industria ospitalității, restaurante, magazine și alte afaceri conexe.</p>
+        </div>
+    </li>
+</ul>
+</div>
+</div>
+
+
+
+<!-- Footer -->
+<footer class="footer uk-section uk-section-small">
+    <div class="uk-container uk-container-expand">
+        <div class="uk-grid-divider uk-child-width-1-2@m" uk-grid>
+            <div>
+                <h4>Follow Us</h4>
+                <a href="#" class="uk-icon-button" uk-icon="twitter"></a>
+                <a href="#" class="uk-icon-button" uk-icon="facebook"></a>
+                <a href="#" class="uk-icon-button" uk-icon="instagram"></a>
+                <p>„Cultură înseamnă în mare parte un oraș enorm plin de dorințe și vise, iar New York este exemplul suprem al acestui adevăr.” Tom Wolfe</p>
+            </div>
+            <div>
+                <h4>Location</h4>
+                <div class="footer-map" id="footer-map"></div>
+                <a href="https://www.google.com/maps?q=New+York" target="_blank" class="uk-button uk-button-text">View on Google Maps</a>
+                <br>
+                <a href="#top" class="back-to-top uk-margin-top" uk-scroll uk-icon="icon: arrow-up"></a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=myMap"></script>
+    </body>
+</html>
